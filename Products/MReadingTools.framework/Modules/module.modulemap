@@ -1,0 +1,11 @@
+framework module MReadingTools {
+  umbrella header "MReadingTools.h"
+
+  export *
+  module * { export * }
+}
+
+module MReadingTools.Swift {
+    header "MReadingTools-Swift.h"
+    requires objc
+}
