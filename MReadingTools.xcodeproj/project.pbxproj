@@ -25,23 +25,6 @@
 		B63D34D72193099500C2EAF4 /* DateHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63D34C82193099500C2EAF4 /* DateHandle.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B63D34F0219423A400C2EAF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B63D34EC219423A400C2EAF4 /* SDKDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B63D347F2192D17500C2EAF4;
-			remoteInfo = SDKDemo;
-		};
-		B63D34F6219423A800C2EAF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B63D34F2219423A800C2EAF4 /* SDKDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B63D347F2192D17500C2EAF4;
-			remoteInfo = SDKDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		B63D34AB2193095200C2EAF4 /* MReadingTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MReadingTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63D34AE2193095200C2EAF4 /* MReadingTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MReadingTools.h; sourceTree = "<group>"; };
@@ -65,8 +48,6 @@
 		B63D34E521930A1900C2EAF4 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NVActivityIndicatorView.framework; sourceTree = "<group>"; };
 		B63D34E621930A1900C2EAF4 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		B63D34E721930A1900C2EAF4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
-		B63D34EC219423A400C2EAF4 /* SDKDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDKDemo.xcodeproj; path = ../SDKDemo/SDKDemo.xcodeproj; sourceTree = "<group>"; };
-		B63D34F2219423A800C2EAF4 /* SDKDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDKDemo.xcodeproj; path = ../SDKDemo/SDKDemo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +64,6 @@
 		B63D34A12193095200C2EAF4 = {
 			isa = PBXGroup;
 			children = (
-				B63D34EC219423A400C2EAF4 /* SDKDemo.xcodeproj */,
-				B63D34F2219423A800C2EAF4 /* SDKDemo.xcodeproj */,
 				B63D34E321930A1900C2EAF4 /* Frameworks */,
 				B63D34AD2193095200C2EAF4 /* MReadingTools */,
 				B63D34AC2193095200C2EAF4 /* Products */,
@@ -158,22 +137,6 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		B63D34ED219423A400C2EAF4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B63D34F1219423A400C2EAF4 /* SDKDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B63D34F3219423A800C2EAF4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B63D34F7219423A800C2EAF4 /* SDKDemo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,39 +194,12 @@
 			mainGroup = B63D34A12193095200C2EAF4;
 			productRefGroup = B63D34AC2193095200C2EAF4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B63D34ED219423A400C2EAF4 /* Products */;
-					ProjectRef = B63D34EC219423A400C2EAF4 /* SDKDemo.xcodeproj */;
-				},
-				{
-					ProductGroup = B63D34F3219423A800C2EAF4 /* Products */;
-					ProjectRef = B63D34F2219423A800C2EAF4 /* SDKDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B63D34AA2193095200C2EAF4 /* MReadingTools */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		B63D34F1219423A400C2EAF4 /* SDKDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SDKDemo.app;
-			remoteRef = B63D34F0219423A400C2EAF4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B63D34F7219423A800C2EAF4 /* SDKDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SDKDemo.app;
-			remoteRef = B63D34F6219423A800C2EAF4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B63D34A92193095200C2EAF4 /* Resources */ = {
@@ -291,7 +227,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\n#open \"${SRCROOT}/Products\"\nfi\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
